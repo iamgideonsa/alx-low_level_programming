@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
- * main - UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
- * Return: Always 1 (Success)
+ * main - UNIX
+ * Return: 1 (Success)
  */
 int main(void)
 {
