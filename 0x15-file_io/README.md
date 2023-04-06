@@ -19,5 +19,5 @@ All of the following files are programs written in C:
 | `3-cp.c` | Copies the content of a file to another file |
 | `100-elf_header.c` | Displays the information contained in the `ELF` header at the start of an `ELF` file |
 
-## Authors:
+## Author:
 ### Gideon Selorm Attakpah: [@iamgideonchrist](https://github.com/iamgideonchrist)
