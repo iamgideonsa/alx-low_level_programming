@@ -29,58 +29,13 @@ This project was done during **ALX SE Studies** at **ALX School**. The end game 
 | `3-O` | What is the `space complexity` (worst case) of an iterative linear search algorithm in an array of size `n`? |
 | `4-O` | What is the `time complexity` (worst case) of a binary search in an array of size `n`? |
 | `5-O` | What is the `space complexity` (worst case) of a binary search in an array of size `n`? |
-| `6-O` | What is the space complexity of this function/algorithm? |
-| `6-O` | `int **allocate_map(int n, int m)
-{
-     int **map;
-
-     map = malloc(sizeof(int *) * n);
-     for (size_t i = 0; i < n; i++)
-     {
-          map[i] = malloc(sizeof(int) * m);
-     }
-     return (map);
-}` |
+| `6-O` | What is the space complexity of the function/algorithm? |
 | `100-jump.c` | A function that searches for a value in a sorted array of integers using the `Jump search algorithm` |
 | `101-O` | What is the `time complexity` (average case) of a jump search in an array of size `n`, using `step = sqrt(n)`? |
 | `102-interpolation.c` | A function that searches for a value in a sorted array of integers using the `Interpolation search algorithm` |
 | `103-exponential.c` |  A function that searches for a value in a sorted array of integers using the `Exponential search algorithm` |
 | `104-advanced_binary.c` | A function that searches for a value in a sorted array of integers. |
-| `105-jump_list.c` | Define the following data structure in your `search_algos.h` header file: |
-| `105-jump_list.c` | /**
- * struct listint_s - singly linked list
- *
- * @n: Integer
- * @index: Index of the node in the list
- * @next: Pointer to the next node
- *
- * Description: singly linked list node structure
- */
-typedef struct listint_s
-{
-    int n;
-    size_t index;
-    struct listint_s *next;
-} listint_t; |
-| `105-jump_list.c` | Write a function that searches for a value in a sorted list of integers using the Jump search algorithm. |
-| `106-linear_skip.c` | Define the following data structure in your `search_algos.h` header file: |
-| `106-linear_skip.c` | /**
- * struct skiplist_s - Singly linked list with an express lane
- *
- * @n: Integer
- * @index: Index of the node in the list
- * @next: Pointer to the next node
- * @express: Pointer to the next node in the express lane
- *
- * Description: singly linked list node structure with an express lane
- */
-typedef struct skiplist_s
-{
-    int n;
-    size_t index;
-    struct skiplist_s *next;
-    struct skiplist_s *express;
-} skiplist_t; |
+| `105-jump_list.c` | A function that searches for a value in a sorted list of integers using the Jump search algorithm. |
 | `106-linear_skip.c` | A function that searches for a value in a sorted skip list of integers. |
 | `107-O` | What is the `time complexity` (average case) of a jump search in a singly linked list of size `n`, using `step = sqrt(n)`? |
 | `108-O` | What is the `time complexity` (average case) of a jump search in a skip list of size `n`, with an express lane using `step = sqrt(n)`? |
